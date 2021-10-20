@@ -8,6 +8,7 @@ import { LandingComponent } from './pages/landing/landing.component';
 import { SearchComponent } from './pages/search/search.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { DayCountPipe } from './pipes/day-count.pipe';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DayCountPipe } from './pipes/day-count.pipe';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
