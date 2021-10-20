@@ -1,27 +1,50 @@
-# GithubSearch
+# GitSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+## Author
 
-## Development server
+**Tevin Otieno**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+* A web application to allow users search for github users and display the repositories with the necessary description folowers and watchers. Accessing as much information from the github api.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup Requirements
 
-## Build
+* Git
+* Web-browser
+* Angular CLI (<https://cli.angular.io/>)
+* Node.js (<https://nodejs.org/>)
+* NPM (<https://www.npmjs.com/>)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Setup
 
-## Running unit tests
+* clone the repo:
+`$ git clone git@github.com:tevin-otieno/github-search.git`
+* Change directory into the "github-search" folder
+* run:
+ `$ npm i`
+ to download the node modules and dependencies.
+* after the code is done run:
+ `$ ng s -o`
+ to load and view the app on your default browser
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies Used
 
-## Running end-to-end tests
+* HTML5
+* CSS3
+* Typescript
+* Angular CLI
+* Bootstrap5
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Live Site
 
-## Further help
+* View [https://tevin-otieno.github.io/github-search/](https://tevin-otieno.github.io/github-search/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contact Information
+
+If you have any question or contributions, please email me at tevin.otieno@student.moringaschool.com.
+
+## License Information
+
+* This software is licensed under MIT License.
+* [Read More](LICENSE) on the license.
