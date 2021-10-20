@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { SearchComponent } from './pages/search/search.component';
 import { HighlightDirective } from './directives/highlight.directive';
+import { DayCountPipe } from './pipes/day-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     SearchComponent,
-    HighlightDirective
+    HighlightDirective,
+    DayCountPipe
   ],
   imports: [
     BrowserModule,
